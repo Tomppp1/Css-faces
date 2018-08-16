@@ -1,0 +1,119 @@
+body{
+    background: #86cece;
+}
+.box{
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 8%;
+    width: 600px;
+    height: 420px;
+    background: none;
+    border:3px solid white;
+}
+.head{
+    position: absolute;
+    top: 16%;
+    left: 25%;
+    width:50% ;
+    height:70% ;
+    border-radius: 50%;
+    background-color:#321907;
+}
+.head2{
+    position: absolute;
+    top: 28%;
+    left: 26%;
+    width:48% ;
+    height:35% ;
+    border-radius: 50%;
+    background-color:#d3aa8c;
+    z-index: 2;
+}
+.ayes_left{
+    position: absolute;
+    border-radius: 50%;
+    width: 23%;
+    height: 28%;
+    top: 35%;
+    left: 16%;
+    background: white;
+}
+.ayes_right{
+    position: absolute;
+    border-radius: 50%;
+    width: 23%;
+    height: 28%;
+    top: 35%;
+    right: 16%;
+    background: white;
+}
+.inner{
+    position: absolute;
+    border-radius: 50%;
+    top:30%;
+    left: 25%;
+    width:25% ;
+    height: 30%;
+    background-color: black;
+}
+.mouth{
+    position: absolute;
+    top: 108%;
+    left: 35%;
+    width:30% ;
+    height:20% ;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius:100%; 
+    border-top-left-radius:20% ;
+    border-top-right-radius:20% ;
+    background-color:#000000;
+}
+.tongue{
+    position: relative;
+    top: 80%;
+    left: 28%;
+    width:45% ;
+    height:20% ;
+    border-radius: 40%;
+    background-color: red;
+}
+.teeth{
+    position: relative;
+    top: -18%;
+    left: 28%;
+    width:45% ;
+    height:20% ;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius:100%; 
+    background-color: white;
+}
+.neck{
+    position: absolute;
+    height: 3%;
+    width: 4%;
+    top:86%;
+    left: 48%;
+    background-color: #d3aa8c;
+    z-index: 1;
+}
+.body{
+    position: absolute;
+    height: 12%;
+    width: 10%;
+    top:88%;
+    left: 45%;
+    background-color: #321907;
+    z-index: 1;
+    border-top-left-radius:20% ;
+    border-top-right-radius:20% ;
+}
+.line{
+    position: absolute;
+    top:20%;
+    height: 90%;
+    width: 100%;
+    -webkit-clip-path: polygon(100% 20%, 73% 79%, 0 88%, 0 75%, 68% 71%, 100% 9%);
+    clip-path: polygon(100% 20%, 73% 79%, 0 88%, 0 75%, 68% 71%, 100% 9%);
+    background-color: red;
+}
